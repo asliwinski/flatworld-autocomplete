@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 250px;
+  font-family: sans-serif;
+}
+
+.input {
+  margin-top: 50px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 250px;
+  height: 20px;
+  padding: 4px;
+  outline: none;
+}
+
+.container {
+  border: 1px solid gray;
+  width: 250px;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.item {
+  cursor: pointer;
+}
+
+.item:hover {
+  background: lightgray;
+}
+
+.item.highlighted {
+  background: lightgray;
+}
+
+.chunk {
+  pointer-events: none;
+}
