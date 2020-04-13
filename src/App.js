@@ -73,7 +73,7 @@ function App() {
         <div className={'container'}>
           {autoComplete.map((item, index) => (
             <div
-              className={`item ${index === highlighted && 'highlighted'}`}
+              className={`item${index === highlighted ? ' highlighted' : ''}`}
               key={item}
               onClick={handleClick}
               data-value={item}
